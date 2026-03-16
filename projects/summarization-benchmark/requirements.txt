@@ -1,0 +1,27 @@
+# P1 — Summarization Benchmark
+
+# pip install -r requirements.txt
+
+# Core
+
+openai
+anthropic
+google-generativeai
+
+# Data
+
+pandas
+numpy
+
+# Metrics
+
+bert-score    # BERTScore — falls back to TF-IDF cosine if not installed
+
+# Visualization
+
+matplotlib
+
+# Notebook
+
+jupyter
+ipython

@@ -1,0 +1,228 @@
+# ============================================================
+
+# SUMMARIZATION BENCHMARK — Prompt Library
+
+# Project: P1 · prompt-engineering-lab
+
+# ============================================================
+
+# Format: Each prompt is labeled with [PROMPT_ID] and metadata.
+
+# Variables: {{TEXT}} is replaced at runtime with the input article.
+
+# ============================================================
+
+# ————————————————————
+
+# BASELINE PROMPTS (no engineering — control group)
+
+# ————————————————————
+
+## [P01] baseline_zero_shot
+strategy: zero_shot
+expected_strength: low
+
+Summarize the following text:
+
+{{TEXT}}
+
+## [P02] baseline_tldr
+strategy: zero_shot
+expected_strength: low
+
+{{TEXT}}
+
+TL;DR:
+
+# ————————————————————
+
+# STANDARD PROMPTS (moderate engineering)
+
+# ————————————————————
+
+## [P03] standard_instructed
+strategy: instructed
+expected_strength: medium
+
+Please provide a concise summary of the following article in 3-5 sentences.
+Focus on the main ideas and key takeaways.
+
+Article:
+{{TEXT}}
+
+Summary:
+
+## [P04] standard_bullets
+strategy: structured_output
+expected_strength: medium
+
+Summarize the following text using exactly 3 bullet points.
+Each bullet should capture a distinct key idea.
+
+Text:
+{{TEXT}}
+
+Key Points:
+•
+
+# ————————————————————
+
+# ADVANCED PROMPTS (heavy prompt engineering)
+
+# ————————————————————
+
+## [P05] advanced_role_audience
+strategy: role_prompting + audience_targeting
+expected_strength: high
+
+You are an expert editor at a major news publication. Your job is to
+write summaries that are accurate, engaging, and accessible to a
+general adult audience with no prior knowledge of the subject.
+
+Summarize the following article in 2-4 sentences. Requirements:
+
+- Preserve all factual claims from the original
+- Use plain language (aim for 8th grade reading level)
+- Lead with the most important information
+- Do not add opinions or information not in the original text
+
+Article:
+{{TEXT}}
+
+Summary:
+
+## [P06] advanced_structured_extraction
+strategy: structured_extraction
+expected_strength: high
+
+Analyze the following text and produce a structured summary.
+
+Text:
+{{TEXT}}
+
+Provide your response in this exact format:
+
+ONE-LINE SUMMARY: [Single sentence capturing the core message]
+
+KEY FACTS:
+
+1. [Most important fact]
+1. [Second most important fact]
+1. [Third most important fact]
+
+CONTEXT: [1 sentence explaining why this matters]
+
+OMITTED: [Note any important details not captured above]
+
+## [P07] advanced_chain_of_thought
+strategy: chain_of_thought
+expected_strength: high
+
+Your task is to produce a high-quality summary of the text below.
+Work through this step by step before writing your final summary.
+
+Text:
+{{TEXT}}
+
+Step 1 — Identify the main topic in one phrase:
+[think here]
+
+Step 2 — List the 3 most important supporting points:
+[think here]
+
+Step 3 — Identify what audience this is written for:
+[think here]
+
+Step 4 — Write the final summary (3-4 sentences, covering main topic and key points):
+FINAL SUMMARY:
+
+## [P08] advanced_contrastive
+strategy: contrastive_instruction
+expected_strength: high
+
+Write a summary of the text below.
+
+IMPORTANT RULES:
+✓ DO include: main argument, key evidence, important names/numbers
+✓ DO write in present tense
+✓ DO keep to 2-3 sentences maximum
+✗ DO NOT include: opinions, background context not in the text, filler phrases
+✗ DO NOT start with “This article”, “The text”, or “This passage”
+✗ DO NOT use passive voice
+
+Text:
+{{TEXT}}
+
+Summary:
+
+## [P09] advanced_compression_ratio
+strategy: constrained_length
+expected_strength: high
+
+Compress the following text to exactly 10% of its original length while
+retaining maximum informational value.
+
+Rules:
+
+- Preserve all named entities (people, places, organizations)
+- Preserve all statistics and numerical data
+- Preserve causal relationships
+- You may omit: background context, repetition, stylistic detail
+
+Text (approximately {{WORD_COUNT}} words — target summary: {{TARGET_WORDS}} words):
+{{TEXT}}
+
+Compressed Summary:
+
+## [P10] advanced_audience_variants
+strategy: audience_adaptation
+expected_strength: high
+
+Summarize the following text THREE times, each for a different audience.
+
+Text:
+{{TEXT}}
+
+EXPERT SUMMARY (for domain specialists, technical language allowed, 2 sentences):
+
+GENERAL PUBLIC SUMMARY (plain language, no jargon, 2-3 sentences):
+
+EXECUTIVE SUMMARY (business-focused, implications and actions, 1-2 sentences):
+
+# ————————————————————
+
+# EVALUATION / META PROMPTS
+
+# ————————————————————
+
+## [P_EVAL] llm_judge
+strategy: llm_as_judge
+usage: evaluation_only — do NOT use as generation prompt
+
+You are an expert at evaluating text summaries. Score the following summary
+of a given article on these dimensions. Respond ONLY with a JSON object.
+
+ORIGINAL TEXT:
+{{ORIGINAL}}
+
+SUMMARY TO EVALUATE:
+{{SUMMARY}}
+
+Score each dimension from 1-5:
+
+- faithfulness: Does the summary accurately reflect the original? (1=many errors, 5=perfectly accurate)
+- coverage: Does it capture the key information? (1=misses most, 5=captures all key points)
+- conciseness: Is it appropriately brief? (1=too long/short, 5=perfect length)
+- fluency: Is it well-written and natural? (1=awkward, 5=excellent prose)
+- coherence: Is it logically organized? (1=confusing, 5=very clear)
+
+Respond with ONLY this JSON, no other text:
+{
+“faithfulness”: <score>,
+“coverage”: <score>,
+“conciseness”: <score>,
+“fluency”: <score>,
+“coherence”: <score>,
+“overall”: <average>,
+“brief_rationale”: “<one sentence explaining the overall score>”
+}
