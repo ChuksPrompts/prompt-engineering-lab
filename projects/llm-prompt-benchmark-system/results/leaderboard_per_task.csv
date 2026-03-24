@@ -1,0 +1,73 @@
+model,task,prompt_strategy,task_score,cost_usd,quality_per_dollar,latency_s
+Claude Haiku,coding,instructed,0.9405,0.0008,1213.5406,4.9506
+Claude Haiku,coding,test_driven,0.9405,0.0008,1213.9322,4.603
+Claude Haiku,coding,zero_shot,0.9491,0.0008,1230.4789,4.8236
+Claude Haiku,qa,cot,0.9,0.0002,5582.8322,3.2498
+Claude Haiku,qa,instructed,0.9,0.0001,11755.0884,1.8518
+Claude Haiku,qa,zero_shot,0.9,0.0001,11169.3358,1.6658
+Claude Haiku,reasoning,cot,0.92,0.0005,2155.7356,4.9222
+Claude Haiku,reasoning,structured,0.9467,0.0004,2400.0302,3.2034
+Claude Haiku,reasoning,zero_shot,0.8933,0.0004,2703.9939,3.608
+Claude Haiku,summarization,instructed,0.5229,0.0002,2729.0572,3.6902
+Claude Haiku,summarization,role_based,0.4912,0.0002,2444.0467,2.5078
+Claude Haiku,summarization,zero_shot,0.456,0.0002,2253.7057,2.4828
+Claude Sonnet 4.6,coding,instructed,0.9548,0.0093,102.6596,8.9404
+Claude Sonnet 4.6,coding,test_driven,0.9548,0.0093,102.6927,7.9158
+Claude Sonnet 4.6,coding,zero_shot,0.9514,0.0093,102.7867,7.5202
+Claude Sonnet 4.6,qa,cot,0.9,0.0015,611.6612,2.7632
+Claude Sonnet 4.6,qa,instructed,0.9,0.0009,975.9502,2.0234
+Claude Sonnet 4.6,qa,zero_shot,0.9,0.0015,748.4001,2.461
+Claude Sonnet 4.6,reasoning,cot,0.9467,0.0065,145.5438,7.4006
+Claude Sonnet 4.6,reasoning,structured,0.92,0.004,251.7759,5.7134
+Claude Sonnet 4.6,reasoning,zero_shot,0.84,0.006,139.9093,7.7452
+Claude Sonnet 4.6,summarization,instructed,0.5223,0.0024,218.7897,3.5264
+Claude Sonnet 4.6,summarization,role_based,0.4559,0.0025,187.4991,3.928
+Claude Sonnet 4.6,summarization,zero_shot,0.4642,0.0027,175.7487,4.1294
+GPT-4o,coding,instructed,0.8662,0.0048,184.9277,4.5134
+GPT-4o,coding,test_driven,0.9548,0.0056,174.1816,5.723
+GPT-4o,coding,zero_shot,0.8948,0.0041,229.555,4.7214
+GPT-4o,qa,cot,0.9,0.0013,784.3872,1.6416
+GPT-4o,qa,instructed,0.9,0.0005,1877.5685,1.0932
+GPT-4o,qa,zero_shot,0.9,0.0005,1824.0702,0.783
+GPT-4o,reasoning,cot,1.0,0.0039,259.1354,6.443
+GPT-4o,reasoning,structured,0.9467,0.0022,449.6236,2.899
+GPT-4o,reasoning,zero_shot,0.9733,0.0026,414.3363,3.2242
+GPT-4o,summarization,instructed,0.5137,0.0015,344.3345,2.7998
+GPT-4o,summarization,role_based,0.487,0.0015,330.1461,1.9854
+GPT-4o,summarization,zero_shot,0.4556,0.0017,266.6303,5.073
+GPT-4o-mini,coding,instructed,0.9005,0.0003,3206.7385,11.29
+GPT-4o-mini,coding,test_driven,0.9405,0.0003,3196.3947,10.7442
+GPT-4o-mini,coding,zero_shot,0.8948,0.0002,4405.6546,8.1856
+GPT-4o-mini,qa,cot,0.9,0.0001,12705.8179,4.1708
+GPT-4o-mini,qa,instructed,0.9,0.0,35328.2156,1.5202
+GPT-4o-mini,qa,zero_shot,0.9,0.0,30472.0318,1.821
+GPT-4o-mini,reasoning,cot,0.9733,0.0002,3974.0671,8.23
+GPT-4o-mini,reasoning,structured,0.9467,0.0002,6568.0545,5.8702
+GPT-4o-mini,reasoning,zero_shot,1.0,0.0002,5635.0521,9.571
+GPT-4o-mini,summarization,instructed,0.5021,0.0001,5412.1002,3.386
+GPT-4o-mini,summarization,role_based,0.4448,0.0001,4787.9159,3.1688
+GPT-4o-mini,summarization,zero_shot,0.4538,0.0001,4398.1241,5.5354
+Gemini 2.0 Flash,coding,instructed,0.9148,0.0004,2315.2826,3.0716
+Gemini 2.0 Flash,coding,test_driven,0.8667,0.0006,1576.828,3.8838
+Gemini 2.0 Flash,coding,zero_shot,0.9005,0.0005,2172.4025,3.7042
+Gemini 2.0 Flash,qa,cot,0.9,0.0002,5143.7289,1.359
+Gemini 2.0 Flash,qa,instructed,0.9,0.0002,5779.5423,1.1452
+Gemini 2.0 Flash,qa,zero_shot,0.9,0.0001,6613.0338,1.2472
+Gemini 2.0 Flash,reasoning,cot,0.9733,0.0004,2235.6744,3.563
+Gemini 2.0 Flash,reasoning,structured,0.92,0.0003,3335.8404,2.6138
+Gemini 2.0 Flash,reasoning,zero_shot,0.8933,0.0004,2723.5272,3.4278
+Gemini 2.0 Flash,summarization,instructed,0.4789,0.0003,1794.5372,1.7456
+Gemini 2.0 Flash,summarization,role_based,0.4286,0.0002,1737.5504,1.5048
+Gemini 2.0 Flash,summarization,zero_shot,0.3604,0.0002,1457.2348,2.354
+Llama 3 8B,coding,instructed,0.8638,0.0,25158.729,6.0008
+Llama 3 8B,coding,test_driven,0.8443,0.0,27529.2598,5.0814
+Llama 3 8B,coding,zero_shot,0.8838,0.0,30961.8536,6.2528
+Llama 3 8B,qa,cot,0.9,0.0,60581.1043,1.659
+Llama 3 8B,qa,instructed,0.9,0.0,109583.715,0.7984
+Llama 3 8B,qa,zero_shot,0.8,0.0,105450.8635,0.8238
+Llama 3 8B,reasoning,cot,0.7067,0.0,29145.7359,6.0422
+Llama 3 8B,reasoning,structured,0.8267,0.0,35717.173,5.342
+Llama 3 8B,reasoning,zero_shot,0.8533,0.0,36444.1907,5.4726
+Llama 3 8B,summarization,instructed,0.4139,0.0,23388.5355,2.6876
+Llama 3 8B,summarization,role_based,0.4076,0.0,23591.1914,2.6358
+Llama 3 8B,summarization,zero_shot,0.4353,0.0,23718.1334,1.9558

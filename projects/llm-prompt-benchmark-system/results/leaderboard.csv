@@ -1,0 +1,7 @@
+rank,model,task_score,cost_usd,quality_per_dollar,latency_s
+1,GPT-4o,0.816,0.0025,594.908,3.4083
+2,Claude Haiku,0.8133,0.0004,3904.3148,3.4632
+3,GPT-4o-mini,0.813,0.0002,10007.5139,6.1244
+4,Claude Sonnet 4.6,0.8092,0.0047,313.6181,5.3389
+5,Gemini 2.0 Flash,0.7864,0.0003,3073.7652,2.4683
+6,Llama 3 8B,0.7363,0.0,44272.5404,3.7294
