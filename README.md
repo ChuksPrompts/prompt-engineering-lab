@@ -124,7 +124,7 @@ Each project folder contains: `README.md` · `experiment.ipynb` · `run_*.py` ·
 
 **Highlights:** 16 constraint types (word_absent, exact_phrase, numbered_list, allocation_sum, sentence_not_starts_with, etc.) that produce machine-verifiable pass/fail with human-readable explanations.
 
-📁 [`projects/instruction-following/`](projects/instruction-following/)
+📁 [`projects/instruction-following/`](projects/instruction-following-benchmark/)
 
 ---
 
@@ -160,7 +160,7 @@ Each project folder contains: `README.md` · `experiment.ipynb` · `run_*.py` ·
 
 **Highlights:** `tone_detector.py` is a zero-dependency 5-class tone classifier that drives automatic strategy selection — detect → adapt → evaluate is a complete loop.
 
-📁 [`projects/email-summarizer/`](projects/email-summarizer/)
+📁 [`projects/email-summarizer/`](projects/ai-email-summarizer/)
 
 ---
 
@@ -172,7 +172,7 @@ Each project folder contains: `README.md` · `experiment.ipynb` · `run_*.py` ·
 
 **Highlights:** `costs.py` maintains a token pricing table for all 6 models and computes `quality_per_dollar` on every result — directly answering the most practical production question: "is the expensive model worth it?"
 
-📁 [`projects/prompt-benchmark-system/`](projects/prompt-benchmark-system/)
+📁 [`projects/prompt-benchmark-system/`](projects/llm-prompt-benchmark-system/)
 
 ---
 
@@ -184,7 +184,7 @@ Each project folder contains: `README.md` · `experiment.ipynb` · `run_*.py` ·
 
 **Highlights:** Three detectors in one pipeline — rule-based (free, instant), LLM judge (high recall), entailment/NLI (semantic). Each has different precision/recall characteristics visible in the ROC chart. The mitigation loop closes by re-scoring after each fix.
 
-📁 [`projects/hallucination-detection/`](projects/hallucination-detection/)
+📁 [`projects/hallucination-detection/`](projects/hallucination-detection-and-mitigation/)
 
 ---
 
@@ -196,7 +196,7 @@ Each project folder contains: `README.md` · `experiment.ipynb` · `run_*.py` ·
 
 **Highlight:** `ingestion.py` has layered fallbacks at every level (pypdf → pdfminer → warning). `chunker.py` preserves section heading context in chunk metadata. The pipeline runs on zero ML dependencies by default — sentence-transformers is a one-flag upgrade.
 
-📁 [`projects/document-intelligence/`](projects/document-intelligence/)
+📁 [`projects/document-intelligence/`](projects/ai-document-intelligence-system/)
 
 ---
 
@@ -251,3 +251,5 @@ Several components are shared or referenced across projects:
 
 Built by ChuksForge as a prompt engineering portfolio project.
 Each project README contains detailed methodology, results, and reproduction instructions.
+
+**Email:** chuksprompts@gmail.com
