@@ -2,7 +2,7 @@
 visualize.py
 ============
 Style Transfer Prompts — Chart Generator
-Project: P2 · prompt-engineering-lab
+Project: P2 · prompt-engineering-lab by ChuksForge
 
 Charts:
   1. Formality Shift Heatmap     (style × model)

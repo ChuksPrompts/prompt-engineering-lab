@@ -1,7 +1,7 @@
 # 📋 P3 — Instruction Following Benchmark
 
 > **Programmatic rubric-based evaluation of instruction compliance across three failure-prone categories**  
-> Part of the [prompt-engineering-lab](../../../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../../../README.md) portfolio by ChuksForge
 
 ---
 

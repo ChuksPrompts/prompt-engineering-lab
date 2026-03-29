@@ -2,7 +2,7 @@
 evaluation.py
 =============
 Instruction Following Benchmark — Evaluation Engine
-Project: P3 · prompt-engineering-lab
+Project: P3 · prompt-engineering-lab by ChuksForge
 
 Scores model outputs against machine-checkable constraint rubrics.
 Each constraint type returns pass/fail + failure reason.

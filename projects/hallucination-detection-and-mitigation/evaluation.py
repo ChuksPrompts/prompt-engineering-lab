@@ -2,7 +2,7 @@
 evaluation.py
 =============
 Hallucination Detection & Mitigation — Evaluation Engine
-Project: P8 · prompt-engineering-lab
+Project: P8 · prompt-engineering-lab by ChuksForge
 
 Computes:
   - Precision, Recall, F1 per detector

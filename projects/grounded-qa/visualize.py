@@ -2,7 +2,7 @@
 visualize.py
 ============
 Grounded QA — Chart Generator
-Project: P5 · prompt-engineering-lab
+Project: P5 · prompt-engineering-lab by ChuksForge
 
 Charts:
   1. Hallucination rate: ungrounded vs grounded vs cited (per model)

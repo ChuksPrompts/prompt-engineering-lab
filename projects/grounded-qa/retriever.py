@@ -2,7 +2,7 @@
 retriever.py
 ============
 Grounded QA — Lightweight TF-IDF Retriever
-Project: P5 · prompt-engineering-lab
+Project: P5 · prompt-engineering-lab by ChuksForge
 
 No external vector DB or embeddings API required.
 Uses pure Python TF-IDF cosine similarity for passage retrieval.

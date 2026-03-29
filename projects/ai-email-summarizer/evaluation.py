@@ -2,7 +2,7 @@
 evaluation.py
 =============
 Email Summarizer — Evaluation Engine
-Project: P6 · prompt-engineering-lab
+Project: P6 · prompt-engineering-lab by ChuksForge
 
 Metrics per summary:
   rouge1 / rouge2 / rougeL  — lexical overlap with reference

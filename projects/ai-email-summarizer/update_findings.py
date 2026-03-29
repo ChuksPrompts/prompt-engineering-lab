@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 Email Summarizer — Auto-populate findings
-Project: P6 · prompt-engineering-lab
+Project: P6 · prompt-engineering-lab by ChuksForge
 
 Run AFTER run_experiment.py.
 

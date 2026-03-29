@@ -2,7 +2,7 @@
 run_experiment.py
 =================
 Email Summarizer — Experiment Runner
-Project: P6 · prompt-engineering-lab
+Project: P6 · prompt-engineering-lab by ChuksForge
 
 Usage:
     python run_experiment.py                         # full run

@@ -1,7 +1,7 @@
 """
 promptlab
 =========
-Prompt Testing Framework — Public API
+Prompt Testing Framework by ChuksForge— Public API
 Project: P4 · prompt-engineering-lab
 
 Importable library for evaluating, comparing, and regression-testing prompts.

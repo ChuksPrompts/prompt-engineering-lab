@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 Style Transfer Prompts — Auto-populate findings after experiment run
-Project: P2 · prompt-engineering-lab
+Project: P2 · prompt-engineering-lab by ChuksForge
 
 Run this AFTER run_experiment.py to auto-fill:
   - README.md formality shift table

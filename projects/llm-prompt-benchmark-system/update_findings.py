@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 LLM Prompt Benchmark System — Auto-populate findings
-Project: P7 · prompt-engineering-lab
+Project: P7 · prompt-engineering-lab by ChuksForge
 """
 
 from pathlib import Path

@@ -6,7 +6,7 @@
 
 ## About
 
-This repository documents a complete prompt engineering portfolio built across 9 projects, organized into three tiers of increasing complexity. Each project is fully reproducible: all prompts, evaluation code, datasets, results, and charts are committed.
+This repository documents a complete prompt engineering portfolio built by ChuksForge across 9 projects, organized into three tiers of increasing complexity. Each project is fully reproducible: all prompts, evaluation code, datasets, results, and charts are committed.
 
 The portfolio demonstrates the full spectrum of prompt engineering work — systematic measurement, failure analysis, cost optimization, hallucination mitigation, and production-ready tooling.
 
@@ -249,7 +249,8 @@ Several components are shared or referenced across projects:
 
 ## Contact
 
-Built by ChuksForge as a prompt engineering portfolio project.
+Built by ChuksForge as an AI Engineering portfolio project.
 Each project README contains detailed methodology, results, and reproduction instructions.
 
 **Email:** chuksprompts@gmail.com
+**Twitter/X:** x.com/ChuksForge

@@ -2,7 +2,7 @@
 evaluation.py
 =============
 LLM Prompt Benchmark System — Evaluation Engine
-Project: P7 · prompt-engineering-lab
+Project: P7 · prompt-engineering-lab by ChuksForge
 
 Task-specific scorers:
   score_summarization  — ROUGE-1 + ROUGE-L composite

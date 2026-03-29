@@ -2,7 +2,7 @@
 costs.py
 ========
 LLM Prompt Benchmark System — Cost Calculator
-Project: P7 · prompt-engineering-lab
+Project: P7 · prompt-engineering-lab by ChuksForge
 
 Token pricing per million tokens (input / output).
 Updated: March 2026 — verify current prices at provider docs.

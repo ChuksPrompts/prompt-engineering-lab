@@ -1,7 +1,7 @@
 """
 promptlab/lab.py
 ================
-PromptLab — main facade class.
+PromptLab by ChuksForge— main facade class.
 Single entry point that wires together all components.
 
 Usage:

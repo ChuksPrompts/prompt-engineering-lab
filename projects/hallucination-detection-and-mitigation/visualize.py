@@ -2,7 +2,7 @@
 visualize.py
 ============
 Hallucination Detection & Mitigation — Chart Generator
-Project: P8 · prompt-engineering-lab
+Project: P8 · prompt-engineering-lab by ChuksForge
 
 Charts:
   1. Detector comparison (P/R/F1 bar chart)

@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 Document Intelligence System — Auto-populate findings
-Project: P9 · prompt-engineering-lab
+Project: P9 · prompt-engineering-lab by ChuksForge
 """
 
 import json

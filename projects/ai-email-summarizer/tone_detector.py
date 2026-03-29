@@ -2,7 +2,7 @@
 tone_detector.py
 ================
 Email Summarizer — Tone Detector
-Project: P6 · prompt-engineering-lab
+Project: P6 · prompt-engineering-lab by ChuksForge
 
 Classifies email tone into 5 categories:
   formal    — business/professional language

@@ -2,7 +2,7 @@
 chunker.py + indexer.py
 ========================
 Document Intelligence System — Chunking & Indexing
-Project: P9 · prompt-engineering-lab
+Project: P9 · prompt-engineering-lab by ChuksForge
 
 Chunker:
   - Sentence-aware splitting (no mid-sentence breaks)

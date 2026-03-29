@@ -1,7 +1,7 @@
 # ✍️ P2 — Style Transfer Prompts
 
 > **Multi-style, multi-model writing style transfer benchmark with side-by-side gallery**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 -----
 

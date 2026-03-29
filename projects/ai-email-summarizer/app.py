@@ -2,7 +2,7 @@
 app.py
 ======
 Email Summarizer — Gradio Demo
-Project: P6 · prompt-engineering-lab
+Project: P6 · prompt-engineering-lab by ChuksForge
 
 Usage:
     pip install gradio>=4.0.0

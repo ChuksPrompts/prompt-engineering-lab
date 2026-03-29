@@ -2,7 +2,7 @@
 dashboard.py
 ============
 LLM Prompt Benchmark System — Streamlit Dashboard
-Project: P7 · prompt-engineering-lab
+Project: P7 · prompt-engineering-lab by ChuksForge
 
 Usage:
     pip install streamlit

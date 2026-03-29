@@ -1,7 +1,7 @@
 # 📑 P9 — AI Document Intelligence System
 
 > **End-to-end document processing pipeline: multi-format ingestion, classification, structured extraction, intelligent QA, and accuracy benchmarking**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio · **Capstone Project**
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge · **Capstone Project**
 
 ---
 

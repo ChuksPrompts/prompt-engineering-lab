@@ -2,7 +2,7 @@
 visualize.py
 ============
 LLM Prompt Benchmark System — Static Chart Generator
-Project: P7 · prompt-engineering-lab
+Project: P7 · prompt-engineering-lab by ChuksForge
 
 Generates charts from results/ for README and notebook.
 Run after run_benchmark.py.

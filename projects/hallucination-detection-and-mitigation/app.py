@@ -2,7 +2,7 @@
 app.py
 ======
 Hallucination Detection & Mitigation — Gradio Demo
-Project: P8 · prompt-engineering-lab
+Project: P8 · prompt-engineering-lab by ChuksForge
 
 Usage:
     pip install gradio

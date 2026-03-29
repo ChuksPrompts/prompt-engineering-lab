@@ -2,7 +2,7 @@
 visualize.py
 ============
 Email Summarizer — Chart Generator
-Project: P6 · prompt-engineering-lab
+Project: P6 · prompt-engineering-lab by ChuksForge
 
 Charts:
   1. Strategy leaderboard (composite score)

@@ -2,7 +2,7 @@
 pipeline.py
 ===========
 Document Intelligence System — Pipeline Orchestrator
-Project: P9 · prompt-engineering-lab
+Project: P9 · prompt-engineering-lab by ChuksForge
 
 Full pipeline: ingest → classify → chunk → index → extract → QA → benchmark
 

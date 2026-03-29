@@ -2,7 +2,7 @@
 run_benchmark.py
 ================
 LLM Prompt Benchmark System — Benchmark Runner
-Project: P7 · prompt-engineering-lab
+Project: P7 · prompt-engineering-lab by ChuksForge
 
 Usage:
     python run_benchmark.py                          # full benchmark

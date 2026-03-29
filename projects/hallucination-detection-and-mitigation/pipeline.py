@@ -2,7 +2,7 @@
 pipeline.py
 ===========
 Hallucination Detection & Mitigation — Main Pipeline
-Project: P8 · prompt-engineering-lab
+Project: P8 · prompt-engineering-lab by ChuksForge
 
 Orchestrates:
   1. Load benchmark dataset

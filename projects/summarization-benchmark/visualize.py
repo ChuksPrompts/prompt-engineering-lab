@@ -2,7 +2,7 @@
 visualize.py
 
 Summarization Benchmark — Chart Generator
-Project: P1 · prompt-engineering-lab
+Project: P1 · prompt-engineering-lab by ChuksForge
 
 Generates publication-quality charts from results.csv
 """

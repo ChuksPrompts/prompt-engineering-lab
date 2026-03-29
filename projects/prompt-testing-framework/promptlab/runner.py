@@ -1,7 +1,7 @@
 """
 promptlab/runner.py
 ===================
-Batch evaluation engine.
+Batch evaluation engine by ChuksForge.
 Renders prompt templates, calls models, collects results.
 """
 

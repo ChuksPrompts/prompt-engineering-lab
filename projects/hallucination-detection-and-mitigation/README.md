@@ -1,7 +1,7 @@
 # 🔍 P8 — Hallucination Detection & Mitigation System
 
 > **Three-detector pipeline with precision/recall curves, mitigation strategies, and a live Gradio demo**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 ---
 

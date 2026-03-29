@@ -2,7 +2,7 @@
 mitigator.py
 ============
 Hallucination Detection & Mitigation — Mitigation Pipeline
-Project: P8 · prompt-engineering-lab
+Project: P8 · prompt-engineering-lab by ChuksForge
 
 Three mitigation strategies:
   1. grounded_rewrite    — rewrite with explicit grounding instructions

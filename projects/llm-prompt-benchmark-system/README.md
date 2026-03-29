@@ -1,7 +1,7 @@
 # 📊 P7 — LLM Prompt Benchmark System
 
 > **Research-grade multi-task, multi-model evaluation with cost-per-quality analysis and interactive Streamlit dashboard**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 ---
 

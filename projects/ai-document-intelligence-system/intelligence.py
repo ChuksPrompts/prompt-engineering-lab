@@ -2,7 +2,7 @@
 intelligence.py
 ===============
 Document Intelligence System — Classifier, Extractor, QA
-Project: P9 · prompt-engineering-lab
+Project: P9 · prompt-engineering-lab by ChuksForge
 
 Three LLM-powered capabilities:
   DocumentClassifier — classifies document type and extracts routing metadata

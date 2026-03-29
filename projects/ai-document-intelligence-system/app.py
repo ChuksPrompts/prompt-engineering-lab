@@ -2,7 +2,7 @@
 app.py
 ======
 Document Intelligence System — Gradio Demo
-Project: P9 · prompt-engineering-lab
+Project: P9 · prompt-engineering-lab by ChuksForge
 
 Upload a document (TXT, PDF, DOCX, CSV) or paste text.
 Pipeline runs: classify → extract → index → QA

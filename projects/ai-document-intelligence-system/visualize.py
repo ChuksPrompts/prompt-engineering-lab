@@ -2,7 +2,7 @@
 visualize.py
 ============
 Document Intelligence System — Chart Generator
-Project: P9 · prompt-engineering-lab
+Project: P9 · prompt-engineering-lab by ChuksForge
 """
 
 from pathlib import Path

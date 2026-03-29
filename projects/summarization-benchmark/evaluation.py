@@ -2,7 +2,7 @@
 evaluation.py
 
 Summarization Benchmark — Evaluation Engine
-Project: P1 · prompt-engineering-lab
+Project: P1 · prompt-engineering-lab by ChuksForge
 
 Computes:
 

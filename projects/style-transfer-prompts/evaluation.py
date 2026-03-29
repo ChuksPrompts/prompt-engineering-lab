@@ -2,7 +2,7 @@
 evaluation.py
 =============
 Style Transfer Prompts — Evaluation Engine
-Project: P2 · prompt-engineering-lab
+Project: P2 · prompt-engineering-lab by ChuksForge
 
 Metrics computed per transfer:
   - Flesch-Kincaid Grade Level     (readability shift)

@@ -1,7 +1,7 @@
 # 📧 P6 — AI Email Summarizer
 
 > **Multi-strategy email summarization with tone detection, latency benchmarking, and a live Gradio demo**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 ---
 

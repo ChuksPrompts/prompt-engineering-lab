@@ -2,7 +2,7 @@
 run_experiment.py
 =================
 Instruction Following Benchmark — Experiment Runner
-Project: P3 · prompt-engineering-lab
+Project: P3 · prompt-engineering-lab by ChuksForge
 
 Usage:
     python run_experiment.py                            # full run

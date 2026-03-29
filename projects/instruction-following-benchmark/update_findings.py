@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 Instruction Following Benchmark — Auto-populate findings
-Project: P3 · prompt-engineering-lab
+Project: P3 · prompt-engineering-lab by ChuksForge
 
 Run AFTER run_experiment.py to auto-fill:
   - README.md leaderboard table + failure analysis table

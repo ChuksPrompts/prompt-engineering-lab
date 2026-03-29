@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 Grounded QA — Auto-populate findings
-Project: P5 · prompt-engineering-lab
+Project: P5 · prompt-engineering-lab by ChuksForge
 
 Run AFTER run_experiment.py to auto-fill:
   - README.md results tables

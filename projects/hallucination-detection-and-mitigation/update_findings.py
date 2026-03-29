@@ -2,7 +2,7 @@
 update_findings.py
 ==================
 Hallucination Detection & Mitigation — Auto-populate findings
-Project: P8 · prompt-engineering-lab
+Project: P8 · prompt-engineering-lab by ChuksForge
 """
 
 from pathlib import Path

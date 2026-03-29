@@ -1,7 +1,7 @@
 """
 promptlab/ab.py
 ===============
-A/B prompt comparison engine.
+A/B prompt comparison engine by ChuksForge.
 Compares two prompt variants across models and inputs.
 Computes statistical significance via paired t-test and win rates.
 """

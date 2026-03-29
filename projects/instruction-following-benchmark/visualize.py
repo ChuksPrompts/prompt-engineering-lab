@@ -2,7 +2,7 @@
 visualize.py
 ============
 Instruction Following Benchmark — Chart Generator
-Project: P3 · prompt-engineering-lab
+Project: P3 · prompt-engineering-lab by ChuksForge
 
 Charts:
   1. Overall pass rate leaderboard (by model)

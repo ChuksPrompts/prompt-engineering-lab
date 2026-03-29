@@ -1,7 +1,7 @@
 # 🔍 P5 — Grounded QA (Anti-Hallucination)
 
 > **Measures how context grounding and citation enforcement reduce hallucination rates across models**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 ---
 

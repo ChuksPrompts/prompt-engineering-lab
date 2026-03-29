@@ -1,7 +1,7 @@
 """
 promptlab/regression.py
 =======================
-Regression testing for prompts.
+Regression testing for prompts by ChuksForge.
 Saves baseline snapshots and alerts when scores drift.
 
 Usage:

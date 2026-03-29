@@ -1,7 +1,7 @@
 # 🧪 P4 — Prompt Testing Framework (`promptlab`)
 
 > **Installable Python library + CLI for evaluating, A/B comparing, and regression-testing LLM prompts**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 ---
 

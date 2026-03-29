@@ -2,7 +2,7 @@
 run_experiment.py
 
 Summarization Benchmark — Experiment Runner
-Project: P1 · prompt-engineering-lab
+Project: P1 · prompt-engineering-lab by ChuksForge
 
 Usage:
 python run_experiment.py                         # full run (all models, all prompts)

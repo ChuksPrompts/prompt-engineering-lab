@@ -2,7 +2,7 @@
 evaluation.py
 =============
 Grounded QA — Evaluation Engine
-Project: P5 · prompt-engineering-lab
+Project: P5 · prompt-engineering-lab by ChuksForge
 
 Metrics:
   factual_accuracy     — does output match ground truth? (0/1 + partial)

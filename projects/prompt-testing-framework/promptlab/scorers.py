@@ -1,7 +1,7 @@
 """
 promptlab/scorers.py
 ====================
-Scoring engines for prompt evaluation.
+Scoring engines for prompt evaluation by ChuksForge
 
 Three scorer types:
   RubricScorer    — rule-based, programmatic, zero API cost

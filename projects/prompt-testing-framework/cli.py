@@ -2,7 +2,7 @@
 cli.py
 ======
 promptlab CLI — command-line interface
-Project: P4 · prompt-engineering-lab
+Project: P4 · prompt-engineering-lab by ChuksForge
 
 Commands:
     promptlab run         Run a batch evaluation from a YAML/JSON test file

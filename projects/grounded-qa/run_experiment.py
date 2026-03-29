@@ -2,7 +2,7 @@
 run_experiment.py
 =================
 Grounded QA — Experiment Runner
-Project: P5 · prompt-engineering-lab
+Project: P5 · prompt-engineering-lab by ChuksForge
 
 Two modes:
   benchmark  — static context dataset, 3 conditions (ungrounded/grounded/cited)

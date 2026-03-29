@@ -1,7 +1,7 @@
 # 📊 P1 — Summarization Benchmark
 
 > **Multi-model, multi-prompt summarization quality benchmark**  
-> Part of the [prompt-engineering-lab](../../README.md) portfolio
+> Part of the [prompt-engineering-lab](../../README.md) portfolio by ChuksForge
 
 -----
 
